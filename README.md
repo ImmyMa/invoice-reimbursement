@@ -2,7 +2,17 @@
 
 按报销周期整理分散票据，辅助跨来源查重、周期归属、分类归档及消费流水核对，生成 Excel 明细及贴图、完整原票副本和 Word 报销说明。
 
-版本 **1.1**。适用于支持 Skill 与本地文件操作的 AI 助手。完整材料生成还需要运行环境实际具备 PDF/OCR、表格和 Word 处理能力；邮箱入口按需连接。
+版本 **1.1.1**，使用 [MIT 开源许可证](LICENSE)。适用于支持 Skill 与本地文件操作的 AI 助手。完整材料生成还需要运行环境实际具备 PDF/OCR、表格和 Word 处理能力；邮箱入口按需连接。
+
+## 案例库链接与下载
+
+需要直接读取 Skill 下载包的平台，请填写这个唯一发布包链接：
+
+[下载 invoice-reimbursement-v1.1.1.zip](https://github.com/ImmyMa/invoice-reimbursement/releases/download/v1.1.1/invoice-reimbursement-v1.1.1.zip)
+
+包内第一层直接包含 `SKILL.md` 和 `LICENSE`，没有额外的仓库外层目录，且只有一个 Skill 入口。依赖的 `references/`、`scripts/` 和 `tests/` 同包提供。仓库默认分支根目录也保留许可证全文与 `license: MIT` 元数据。
+
+此版本修复许可证缺失及下载包层级，业务校验逻辑与 1.1 相同。平台审核仍需在更新链接后重新提交；本项目不将仓库和压缩包检查等同于平台审核通过。
 
 ## 使用
 
